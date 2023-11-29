@@ -469,6 +469,64 @@ main .sobre {
 
 /* PROJECTS */
 
+/* ... Estilos existentes ... */
+
+/* PROJECTS */
+
+.projects {
+    padding: 30px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    background-color: #151515;
+}
+
+.projects ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.projects ul li {
+    text-align: center;
+}
+
+.projects ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+.projects ul li a:hover {
+    color: #419dd7;
+    border-color: #419dd7;
+}
+
+.projects ul li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.projects ul li:hover img {
+    transform: scale(1.05);
+}
+
+.projects ul li:hover {
+    transform: translateY(-5px);
+}
+
+/* ... Outros estilos existentes ... */
+
+
 .projects {
     padding: 30px;
     display: grid;
@@ -563,7 +621,7 @@ footer {
 .footer_sociais li i {
     padding: 30px;
     font-size: 1.5rem;
-    color: 363636;
+    color: #363636;
 }
 
 .footer_sociais li:hover {
